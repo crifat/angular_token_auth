@@ -6,11 +6,13 @@ import { HttpModule } from '@angular/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterializeModule } from 'angular2-materialize';
-import { Angular2TokenService } from 'angular2-token'
+import { Angular2TokenService } from 'angular2-token';
+import { HomeComponent } from './home/home.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
